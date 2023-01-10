@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/index.js" defer></script>
+</head>
+<body>
+    <div class="start" id="start">
+        <div class="start__button" id="start_engine_btn">
+            <span>Start</span>
+            <span>Stop</span>
+            <span>Engine</span>
+        </div>
+    </div>
+    <div class="dashboard">
+        <div id="kmh">
+            <div class="gauge" style="--kmh: 0; --start-angle: 0deg; --digits-angle: 30deg; --lines-count: 6; --digits-count: 10; --gauge-value: var(--kmh) / 30;">
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <label>0</label>
+                </div>
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <label>20</label>
+                </div>
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <label>40</label>
+                </div>
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <label>60</label>
+                </div>
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <label>100</label>
+                </div>
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <label>140</label>
+                </div>
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <label>200</label>
+                </div>
+                <div class="digit">
+                    <label>260</label>
+                </div>
+                <div class="pointer">
+                    <div class="hand"></div>
+                </div>
+            </div>
+        </div>
+        <div id="nav_map">
+
+        </div>
+        <div id="rpm">
+            <div class="gauge" style="--rpm: 750; --limiter: 6700; --gauge-value: var(--rpm) / 1000;">
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+
+                    <label>0</label>
+                </div>
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+
+                    <label>1</label>
+                </div>
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+
+                    <label>2</label>
+                </div>
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+
+                    <label>3</label>
+                </div>
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+
+                    <label>4</label>
+                </div>
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+
+                    <label>5</label>
+                </div>
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+
+                    <label>6</label>
+                </div>
+                <div class="digit">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="seperating line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+
+                    <label>7</label>
+                </div>
+
+                <div class="digit">
+                    <label>8</label>
+                </div>
+
+                <div class="limiter"></div>
+
+                <div class="pointer">
+                    <div class="hand"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="controls">
+        <label>
+            Revs:
+            <input type="number" name="rpm" value="750" min="0" max="6700" step="100" />
+            RPM
+        </label><br />
+        
+        <label>
+            Speed:
+            <input type="number" name="kmh" value="0" min="0" max="270" step="1" />
+            km/h
+        </label><br />
+        
+        <label>Gear:
+            <input type="number" name="gear" value="0" min="0" max="6" />
+        </label>
+    </div>
+</body>
+</html>
